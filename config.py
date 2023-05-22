@@ -21,7 +21,7 @@ OWNER_ID = list(map(int, getenv("OWNER_ID", "5595491903").split()))
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://t.me/brahmaam_sher")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Anup8273/Mistybestbot")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
@@ -121,7 +121,7 @@ SONG_DOWNLOAD_DURATION_LIMIT = int(
 
 
 if UPSTREAM_REPO:
-    if not re.match("(?:http|https)://", UPSTREAM_REPO):
+    if not re.match(, "https://github.com/Anup8273/Mistybestbot")
         print(
             "[ERROR] - Your UPSTREAM_REPO url is wrong. Please ensure that it starts with https://"
         )
